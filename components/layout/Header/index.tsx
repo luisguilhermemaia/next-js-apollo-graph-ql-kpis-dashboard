@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styled from 'styled-components';
+
 import { Menu } from '../Menu';
 
 const StyledHeader = styled.header`
