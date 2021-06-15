@@ -14,7 +14,7 @@ export const NPSMock = Factory.Sync.makeFactory<Nps>({
 
 export const CompanyMock = Factory.Sync.makeFactory<Company>({
   __typename: 'Company',
-  id: Factory.each(() => faker.datatype.uuid()),
+  id: Factory.each(() => faker.internet.color()),
   name: Factory.each(() => faker.company.companyName()),
   segment: Factory.each(() => faker.company.bs()),
   contract: Factory.each(() => faker.company.companyName()),
