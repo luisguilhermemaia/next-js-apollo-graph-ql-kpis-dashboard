@@ -1,10 +1,9 @@
+import '@testing-library/jest-dom/extend-expect';
 import { RenderResult, render } from '@testing-library/react';
 import React from 'react';
-
 import { Dropdown } from '../index';
-import { MockedProvider } from '@apollo/client/testing';
 
-describe('CountriesDropdown', () => {
+describe('Dropdown', () => {
   let renderResult: RenderResult;
   const items = [
     {
@@ -20,14 +19,12 @@ describe('CountriesDropdown', () => {
   ];
   const doRender = () => {
     renderResult = render(
-      <MockedProvider>
-        <Dropdown
-          setState={jest.fn()}
-          items={items}
-          value={items[0]}
-          label="Filter By"
-        />
-      </MockedProvider>
+      <Dropdown
+        setState={jest.fn()}
+        items={items}
+        value={items[0]}
+        label="Filter By"
+      />
     );
   };
 

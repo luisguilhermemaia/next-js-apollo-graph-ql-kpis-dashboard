@@ -1,0 +1,1223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table renders correctly with showCritical false 1`] = `
+<div>
+  <table
+    class="Table__StyledTable-ch5b9r-3 dVhPvg"
+  >
+    <thead
+      class="Table__StyledTableHead-ch5b9r-2 hejyOx"
+    >
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          Id
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          Company name
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          Segment
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          Contract
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          RENEWALS
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          NPS avg
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          NPS last
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          NPS First
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="Table__StyledTableBody-ch5b9r-0"
+    >
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 gWeppk"
+            color="#15791b"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Olson and Sons
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          leverage proactive platforms
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Barton Group
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          91614
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          92146
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          42321
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          61852
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 isShem"
+            color="#296f19"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Legros, Morissette and Farrell
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          extend proactive experiences
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Kemmer, Schneider and Zieme
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          36928
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          14959
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          95259
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          81125
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 mQTzs"
+            color="#2e1b58"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Rice Group
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          exploit cutting-edge e-commerce
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Dooley and Sons
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          34362
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          94705
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          45342
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          15497
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 bKTsEe"
+            color="#404524"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Koelpin - Veum
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          exploit distributed metrics
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Schuppe, Champlin and Jast
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          99965
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          20045
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          79164
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          74465
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 eVOcxr"
+            color="#4b0a50"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Ryan - Kshlerin
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          strategize granular methodologies
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Bode and Sons
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          43895
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          34529
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          54266
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          51730
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 jJTLyC"
+            color="#51331f"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Schmeler - Thiel
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          incentivize robust initiatives
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Dickinson, Wehner and Rolfson
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          71148
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          16918
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          37333
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          31684
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 dbEqIq"
+            color="#571545"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Koch LLC
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          extend clicks-and-mortar communities
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Keebler, Pfannerstill and Lakin
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          81438
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          79988
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          98423
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          63790
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 dAoawM"
+            color="#5d0a67"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Williamson Group
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          recontextualize wireless solutions
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          O'Conner, Schneider and Senger
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          14901
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          96744
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          22756
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          67119
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 bYltkr"
+            color="#6b3b2a"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Hermiston and Sons
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          iterate enterprise e-markets
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Kling - Herman
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          35331
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          8574
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          98934
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          93487
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 kHXntG"
+            color="#75604c"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Stiedemann - Mraz
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          benchmark dot-com metrics
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Kutch - Schmeler
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          9300
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          65374
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          46816
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          74749
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table renders correctly with showCritical true 1`] = `
+<div>
+  <table
+    class="Table__StyledTable-ch5b9r-3 dVhPvg"
+  >
+    <thead
+      class="Table__StyledTableHead-ch5b9r-2 hejyOx"
+    >
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          Id
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          Company name
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          Segment
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          Contract
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          RENEWALS
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          NPS avg
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          NPS last
+        </th>
+        <th
+          class="Table__StyledTableHeader-ch5b9r-5 foRQsW"
+        >
+          NPS First
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="Table__StyledTableBody-ch5b9r-0"
+    >
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 gWeppk"
+            color="#15791b"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Olson and Sons
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          leverage proactive platforms
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Barton Group
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          91614
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          92146
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          42321
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          61852
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 bmanpx"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 isShem"
+            color="#296f19"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Legros, Morissette and Farrell
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          extend proactive experiences
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Kemmer, Schneider and Zieme
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          36928
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          14959
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          95259
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          81125
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 bmanpx"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 mQTzs"
+            color="#2e1b58"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Rice Group
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          exploit cutting-edge e-commerce
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Dooley and Sons
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          34362
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          94705
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          45342
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          15497
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 bmanpx"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 bKTsEe"
+            color="#404524"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Koelpin - Veum
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          exploit distributed metrics
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Schuppe, Champlin and Jast
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          99965
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          20045
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          79164
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          74465
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 eVOcxr"
+            color="#4b0a50"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Ryan - Kshlerin
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          strategize granular methodologies
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Bode and Sons
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          43895
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          34529
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          54266
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          51730
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 bmanpx"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 jJTLyC"
+            color="#51331f"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Schmeler - Thiel
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          incentivize robust initiatives
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Dickinson, Wehner and Rolfson
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          71148
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          16918
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          37333
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          31684
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 dbEqIq"
+            color="#571545"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Koch LLC
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          extend clicks-and-mortar communities
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Keebler, Pfannerstill and Lakin
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          81438
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          79988
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          98423
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          63790
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 dAoawM"
+            color="#5d0a67"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Williamson Group
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          recontextualize wireless solutions
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          O'Conner, Schneider and Senger
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          14901
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          96744
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          22756
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          67119
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 bYltkr"
+            color="#6b3b2a"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Hermiston and Sons
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          iterate enterprise e-markets
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Kling - Herman
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          35331
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          8574
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          98934
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          93487
+        </td>
+      </tr>
+      <tr
+        class="Table__StyledTableRow-ch5b9r-4 cFbMMw"
+      >
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Id"
+        >
+          <span
+            class="Table__StyledDot-ch5b9r-1 kHXntG"
+            color="#75604c"
+          />
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Company name"
+        >
+          Stiedemann - Mraz
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Segment"
+        >
+          benchmark dot-com metrics
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="Contract"
+        >
+          Kutch - Schmeler
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="RENEWALS"
+        >
+          9300
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS avg"
+        >
+          65374
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS last"
+        >
+          46816
+        </td>
+        <td
+          class="Table__StyledTableCell-ch5b9r-6 euguko"
+          data-label="NPS First"
+        >
+          74749
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

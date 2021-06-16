@@ -45,6 +45,7 @@ const StyledTable = styled.table`
 `;
 
 type StyledTableRowpropsType = {
+  key?: string;
   showCritical?: boolean;
   theme?: { table: string; toggleFontColor: string };
 };

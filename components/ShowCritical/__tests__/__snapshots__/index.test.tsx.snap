@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShowCritical renders correctly 1`] = `
+<div>
+  <div
+    class="ShowCritical__StyledContainer-sc-1m229mh-0 dSBfNi"
+  >
+    <input
+      type="checkbox"
+    />
+    <label
+      for="critical-checkbox"
+    >
+      Show critical
+    </label>
+  </div>
+</div>
+`;

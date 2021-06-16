@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KPIs renders correctly 1`] = `
+<div>
+  <div
+    class="KPIs__StyledKPIsContainer-nsca2n-2 hkSEZn"
+  >
+    <div
+      class="KPIs__StyledKPICard-nsca2n-3 KPIs__ActiveSourceContainer-nsca2n-4 kSBhyj bAwyEF"
+    >
+      <div>
+        <p>
+          Active Sourcing
+        </p>
+        <h3>
+          92500
+        </h3>
+        <p>
+          <span>
+            1127
+          </span>
+           
+          Last period
+        </p>
+      </div>
+      <div
+        class="KPIs__BottomCircle-nsca2n-0 cYzzdY"
+      />
+      <div
+        class="KPIs__TopCircle-nsca2n-1 fIiNhC"
+      />
+    </div>
+    <div
+      class="KPIs__StyledKPICard-nsca2n-3 KPIs__WeeklyActiveContainer-nsca2n-5 kSBhyj jKBzOQ"
+    >
+      <div>
+        <p>
+          Weekly Active
+        </p>
+        <h3>
+          25524
+        </h3>
+        <p>
+          <span>
+            95351
+          </span>
+           
+          Last period
+        </p>
+      </div>
+      <div
+        class="KPIs__BottomCircle-nsca2n-0 cYzzdY"
+      />
+      <div
+        class="KPIs__TopCircle-nsca2n-1 fIiNhC"
+      />
+    </div>
+    <div
+      class="KPIs__StyledKPICard-nsca2n-3 KPIs__NpsContainer-nsca2n-6 kSBhyj mPsyW"
+    >
+      <div>
+        <p>
+          NPS
+        </p>
+        <h3>
+          60124
+        </h3>
+        <p>
+          <span>
+            24545
+          </span>
+           
+          Last period
+        </p>
+      </div>
+      <div
+        class="KPIs__BottomCircle-nsca2n-0 cYzzdY"
+      />
+      <div
+        class="KPIs__TopCircle-nsca2n-1 fIiNhC"
+      />
+    </div>
+  </div>
+</div>
+`;

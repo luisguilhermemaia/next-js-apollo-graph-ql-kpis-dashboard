@@ -18,6 +18,7 @@ export const GET_COMPANIES_STATS = gql`
         id
         currentPeriod
         lastPeriod
+        avg
       }
       companies {
         id
