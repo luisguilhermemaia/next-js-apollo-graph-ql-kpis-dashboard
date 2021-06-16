@@ -25,6 +25,7 @@ export const GET_COMPANIES_STATS = gql`
         segment
         contract
         renewals
+        isCritical
         nps {
           id
           currentPeriod

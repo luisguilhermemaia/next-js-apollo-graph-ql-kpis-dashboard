@@ -1,6 +1,14 @@
 import * as Factory from 'factory.ts';
 import faker from 'faker';
-import { Dashboard, ActiveSource, WeeklyActive, Company, Nps, Query } from './types';
+import {
+  Dashboard,
+  ActiveSource,
+  WeeklyActive,
+  Company,
+  Nps,
+  Query,
+  FilterEnum,
+} from './types';
 import { MockedResponse } from '@apollo/client/testing';
 import { GET_COMPANIES_STATS } from './queries/companies';
 
@@ -20,6 +28,7 @@ export const CompanyMock = Factory.Sync.makeFactory<Company>({
   contract: Factory.each(() => faker.company.companyName()),
   renewals: Factory.each(() => faker.datatype.number()),
   nps: Factory.each(() => NPSMock.build()),
+  isCritical: Factory.each(() => faker.datatype.boolean()),
 });
 
 export const WeeklyActiveMock = Factory.Sync.makeFactory<WeeklyActive>({
@@ -45,13 +54,15 @@ export const DashboardMock = Factory.Sync.makeFactory<Dashboard>({
   companies: Factory.each(() => CompanyMock.buildList(10)),
 });
 
-export const getCompaniesStatsQueryMock: MockedResponse<Query> = {
-  request: {
-    query: GET_COMPANIES_STATS,
-  },
-  result: {
-    data: {
-      dashboard: DashboardMock.build(),
+export const mockQueries = (): Array<MockedResponse<Query>> =>
+  Object.values(FilterEnum).map((filter) => ({
+    request: {
+      query: GET_COMPANIES_STATS,
+      variables: filter,
     },
-  },
-};
+    result: {
+      data: {
+        dashboard: DashboardMock.build(),
+      },
+    },
+  }));

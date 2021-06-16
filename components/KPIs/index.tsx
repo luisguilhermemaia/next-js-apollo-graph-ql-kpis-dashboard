@@ -1,57 +1,39 @@
 import React, { FC } from 'react';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 import { ActiveSource, Nps, WeeklyActive } from '../../graphql/types';
+import { Spinner } from '../Spinner';
 
-const rotate360 = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
-
-const Spinner = styled.div`
-  animation: ${rotate360} 1s linear infinite;
-  transform: translateZ(0);
-  border-top: 2px solid grey;
-  border-right: 2px solid grey;
-  border-bottom: 2px solid grey;
-  border-left: 4px solid black;
-  background: transparent;
-  width: 24px;
-  height: 24px;
+const BottomCircle = styled.div`
+  background-color: #fff;
+  opacity: 0.3;
+  position: absolute;
+  top: 64px;
+  left: 155px;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
   border-radius: 50%;
 `;
 
-const BottomCircle = styled.div`
-  height: 110px;
-  width: 120px;
-  background-color: #fff;
-  opacity: 0.3;
-  border-top-left-radius: 100%;
-  position: absolute;
-  top: 50px;
-  left: 130px;
-`;
-
 const TopCircle = styled.div`
-  height: 78px;
-  width: 85px;
   background-color: #fff;
   opacity: 0.3;
-  border-bottom-left-radius: 100%;
   position: absolute;
-  bottom: 80px;
-  left: 165px;
+  bottom: 72px;
+  left: 199px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
 `;
 
 const StyledKPIsContainer = styled.div`
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin: 1.5rem 0px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
 `;
 
 const StyledKPICard = styled.div`
@@ -61,6 +43,7 @@ const StyledKPICard = styled.div`
   padding: 20px;
   color: #fff;
   position: relative;
+  margin: 1.5rem 1rem;
 
   p,
   h3 {

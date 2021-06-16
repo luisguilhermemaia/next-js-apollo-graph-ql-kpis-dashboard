@@ -35,6 +35,7 @@ export const typeDefs = gql`
     contract: String!
     renewals: Int!
     nps: NPS!
+    isCritical: Boolean!
   }
 
   type NPS {

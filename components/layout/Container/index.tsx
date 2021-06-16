@@ -1,6 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.main`
-  height: calc(100vh - 34px - 50px - 64px);
-  padding: 2rem;
+  width: 90%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const Section = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 `;

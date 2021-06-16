@@ -6,14 +6,20 @@ import {
   Container,
   Footer,
   KPIs,
-  Sort,
   Table,
-  Filter,
+  Dropdown,
   ShowCritical,
+  Section,
 } from '../components/';
+import { useState } from 'react';
+import { sortItems, filterItems } from '../graphql/types';
 
 export default function Dashboard() {
-  const { data, loading } = useCompanies();
+  const [filterState, setfilterState] = useState(filterItems[0]);
+  const [sortState, setSortState] = useState(sortItems[0]);
+  const [showCritical, setShowCritical] = useState(false);
+  const { data, loading } = useCompanies(filterState?.payload);
+
   return (
     <>
       <Head>
@@ -23,20 +29,36 @@ export default function Dashboard() {
       </Head>
       <Header />
       <Container>
-        <div>
-          <Filter loading={loading} />
-          <KPIs
-            loading={loading}
-            activeSource={data?.activeSource}
-            nps={data?.nps}
-            weeklyActive={data?.weeklyActive}
+        <Dropdown
+          label={'Filter By'}
+          setState={(item) => {
+            setfilterState(item);
+            setSortState(sortItems[0]);
+          }}
+          items={filterItems}
+          value={filterState}
+        />
+        <KPIs
+          loading={loading}
+          activeSource={data?.activeSource}
+          nps={data?.nps}
+          weeklyActive={data?.weeklyActive}
+        />
+        <Section>
+          <ShowCritical setState={setShowCritical} />
+          <Dropdown
+            label={'Sort By'}
+            setState={setSortState}
+            items={sortItems}
+            value={sortState}
           />
-        </div>
-        <div>
-          <ShowCritical />
-          <Sort />
-          <Table loading={loading} companies={data?.companies} />
-        </div>
+        </Section>
+        <Table
+          loading={loading}
+          companies={data?.companies}
+          sortState={sortState}
+          showCritical={showCritical}
+        />
       </Container>
       <Footer />
     </>

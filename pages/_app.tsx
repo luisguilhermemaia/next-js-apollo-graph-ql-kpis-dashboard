@@ -1,6 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import { Provider } from '../components/Provider/Provider';
+import { Provider } from '../graphql/Provider';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 const colors = {

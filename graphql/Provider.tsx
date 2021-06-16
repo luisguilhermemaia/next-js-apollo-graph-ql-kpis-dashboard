@@ -1,9 +1,9 @@
 import React from 'react';
 import { MockedProvider } from '@apollo/client/testing';
-import { getCompaniesStatsQueryMock } from '../../graphql/mocks';
+import { mockQueries } from './mocks';
 
 export const Provider: React.FC = ({ children }) => (
-  <MockedProvider mocks={[getCompaniesStatsQueryMock]}>
+  <MockedProvider mocks={mockQueries()}>
     <>{children}</>
   </MockedProvider>
 );

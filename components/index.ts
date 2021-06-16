@@ -3,19 +3,21 @@ import { Menu } from './layout/Menu';
 import { Header } from './layout/Header';
 import { Footer } from './layout/Footer';
 import { KPIs } from './KPIs';
-import { Sort } from './Sort';
 import { Table } from './Table';
-import { Filter } from './Filter';
+import { Dropdown } from './Dropdown';
 import { ShowCritical } from './ShowCritical';
+import { Spinner } from './Spinner';
+import { Section } from './layout/Container/index';
 
 export {
   Header,
   Footer,
   KPIs,
-  Sort,
   Table,
-  Filter,
+  Dropdown,
   ShowCritical,
   Menu,
   Container,
+  Section,
+  Spinner,
 };
