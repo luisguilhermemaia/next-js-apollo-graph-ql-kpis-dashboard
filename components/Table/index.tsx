@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { Company, DropdownItem } from '../../graphql/types';
+import { Company, DropdownItem, SortEnum } from '../../graphql/types';
 import { Spinner } from '../../shared/layout';
 import { GlobalStyleType } from '../../shared/theme';
 
@@ -116,6 +116,29 @@ type TablePropsType = {
   sortState: DropdownItem;
 };
 
+export const sortCompanies = (companies: Company[], key: string) => {
+  switch (key) {
+    case SortEnum.ID:
+      return [...companies].sort((a, b) => a.id.localeCompare(b.id));
+    case SortEnum.COMPANY_NAME:
+      return [...companies].sort((a, b) => a.name.localeCompare(b.name));
+    case SortEnum.SEGMENT:
+      return [...companies].sort((a, b) => a.segment.localeCompare(b.segment));
+    case SortEnum.CONTRACT:
+      return [...companies].sort((a, b) =>
+        a.contract.localeCompare(b.contract)
+      );
+    case SortEnum.RENEWALS:
+      return [...companies].sort((a, b) => b.renewals - a.renewals);
+    case SortEnum.BEST_NPS_AVG:
+      return [...companies].sort((a, b) => a.nps.avg - b.nps.avg);
+    case SortEnum.WORSE_NPS_AVG:
+      return [...companies].sort((a, b) => a.nps.lastPeriod - b.nps.lastPeriod);
+    default:
+      return companies;
+  }
+};
+
 export const Table: FC<TablePropsType> = ({
   loading,
   companies = [],
@@ -140,50 +163,47 @@ export const Table: FC<TablePropsType> = ({
         {loading ? (
           <Spinner />
         ) : (
-          companies
-            ?.slice()
-            .sort((a, b) => (a[sortState.value] > b[sortState.value] ? 1 : -1))
-            .map(
-              ({
-                id,
-                name,
-                segment,
-                contract,
-                renewals,
-                isCritical,
-                nps: { currentPeriod, lastPeriod, avg },
-              }) => (
-                <StyledTableRow
-                  showCritical={showCritical && isCritical}
-                  key={id}
-                >
-                  <StyledTableCell data-label={labels.ID}>
-                    <StyledDot color={id} />
-                  </StyledTableCell>
-                  <StyledTableCell data-label={labels.NAME}>
-                    {name}
-                  </StyledTableCell>
-                  <StyledTableCell data-label={labels.SEGMENT}>
-                    {segment}
-                  </StyledTableCell>
-                  <StyledTableCell data-label={labels.CONTRACT}>
-                    {contract}
-                  </StyledTableCell>
-                  <StyledTableCell data-label={labels.RENEWALS}>
-                    {renewals}
-                  </StyledTableCell>
-                  <StyledTableCell data-label={labels.NPS_AVG}>
-                    {avg}
-                  </StyledTableCell>
-                  <StyledTableCell data-label={labels.NPS_LAST}>
-                    {lastPeriod}
-                  </StyledTableCell>
-                  <StyledTableCell data-label={labels.NPS_FIRST}>
-                    {currentPeriod}
-                  </StyledTableCell>
-                </StyledTableRow>
-              )
+          sortCompanies(companies, sortState.value).map(
+            ({
+              id,
+              name,
+              segment,
+              contract,
+              renewals,
+              isCritical,
+              nps: { currentPeriod, lastPeriod, avg },
+            }) => (
+              <StyledTableRow
+                showCritical={showCritical && isCritical}
+                key={id}
+              >
+                <StyledTableCell data-label={labels.ID}>
+                  <StyledDot color={id} />
+                </StyledTableCell>
+                <StyledTableCell data-label={labels.NAME}>
+                  {name}
+                </StyledTableCell>
+                <StyledTableCell data-label={labels.SEGMENT}>
+                  {segment}
+                </StyledTableCell>
+                <StyledTableCell data-label={labels.CONTRACT}>
+                  {contract}
+                </StyledTableCell>
+                <StyledTableCell data-label={labels.RENEWALS}>
+                  {renewals}
+                </StyledTableCell>
+                <StyledTableCell data-label={labels.NPS_AVG}>
+                  {avg}
+                </StyledTableCell>
+                <StyledTableCell data-label={labels.NPS_LAST}>
+                  {lastPeriod}
+                </StyledTableCell>
+                <StyledTableCell data-label={labels.NPS_FIRST}>
+                  {currentPeriod}
+                </StyledTableCell>
+              </StyledTableRow>
             )
+          )
         )}
       </StyledTableBody>
     </StyledTable>
