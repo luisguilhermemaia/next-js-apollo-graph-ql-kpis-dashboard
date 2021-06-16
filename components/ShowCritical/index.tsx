@@ -17,8 +17,6 @@ export const ShowCritical: FC<ShowCriticalPropsType> = ({ setState }) => {
   return (
     <StyledContainer>
       <input
-        name="critical-checkbox"
-        id="critical-checkbox"
         type="checkbox"
         onChange={() => setState((showCritical) => !showCritical)}
       />

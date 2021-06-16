@@ -1,17 +1,10 @@
 import Head from 'next/head';
+import { useState } from 'react';
+
+import { KPIs, Table, Dropdown, ShowCritical } from '../components/';
+import { Header, Container, Footer, Section } from '../shared/layout';
 
 import { useCompanies } from '../services/companies/index';
-import {
-  Header,
-  Container,
-  Footer,
-  KPIs,
-  Table,
-  Dropdown,
-  ShowCritical,
-  Section,
-} from '../components/';
-import { useState } from 'react';
 import { sortItems, filterItems } from '../graphql/types';
 
 export default function Dashboard() {

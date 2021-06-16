@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app';
 import { Provider } from '../graphql/Provider';
 import { ThemeProvider } from 'styled-components';
 import { useToggletheme } from '../localFields/useDarkMode';
-import { darkTheme, lightTheme, GlobalStyle } from '../components/theme/index';
+import { darkTheme, lightTheme, GlobalStyle } from '../shared/theme/index';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const [theme] = useToggletheme();

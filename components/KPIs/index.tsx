@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { ActiveSource, Nps, WeeklyActive } from '../../graphql/types';
-import { Spinner } from '../Spinner';
-import { GlobalStyleType } from '../theme';
+import { Spinner } from '../../shared/components/Spinner';
+import { GlobalStyleType } from '../../shared/theme';
 
 const BottomCircle = styled.div`
   background-color: ${({ theme }: GlobalStyleType) => theme?.circle};

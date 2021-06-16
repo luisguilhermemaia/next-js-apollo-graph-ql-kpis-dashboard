@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { Company, DropdownItem } from '../../graphql/types';
-import { Spinner } from '../Spinner';
-import { GlobalStyleType } from '../theme';
+import { Spinner } from '../../shared/layout';
+import { GlobalStyleType } from '../../shared/theme';
 
 const maxWidthBreakpoint = '992px';
 
