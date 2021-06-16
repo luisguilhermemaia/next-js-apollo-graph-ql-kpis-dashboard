@@ -3,9 +3,10 @@ import styled from 'styled-components';
 
 import { ActiveSource, Nps, WeeklyActive } from '../../graphql/types';
 import { Spinner } from '../Spinner';
+import { GlobalStyleType } from '../theme';
 
 const BottomCircle = styled.div`
-  background-color: #fff;
+  background-color: ${({ theme }: GlobalStyleType) => theme?.circle};
   opacity: 0.3;
   position: absolute;
   top: 64px;
@@ -17,7 +18,7 @@ const BottomCircle = styled.div`
 `;
 
 const TopCircle = styled.div`
-  background-color: #fff;
+  background-color: ${({ theme }: GlobalStyleType) => theme?.circle};
   opacity: 0.3;
   position: absolute;
   bottom: 72px;

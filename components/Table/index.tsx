@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { Company, DropdownItem } from '../../graphql/types';
 import { Spinner } from '../Spinner';
+import { GlobalStyleType } from '../theme';
 
 const maxWidthBreakpoint = '992px';
 
@@ -31,6 +32,7 @@ const StyledTableHead = styled.thead`
 `;
 
 const StyledTable = styled.table`
+  color: ${({ theme }: GlobalStyleType) => theme?.body};
   border: 1px solid #ccc;
   border-collapse: collapse;
   margin: 1.5rem 0;
@@ -44,14 +46,17 @@ const StyledTable = styled.table`
 
 type StyledTableRowpropsType = {
   showCritical?: boolean;
+  theme?: { table: string; toggleFontColor: string };
 };
 
 const StyledTableRow = styled.tr`
   border: 1px solid #ddd;
   padding: 0.35em;
 
+  color: ${(props: StyledTableRowpropsType) => props?.theme?.toggleFontColor};
+
   background-color: ${(props: StyledTableRowpropsType) =>
-    props.showCritical ? '#FEE5E9' : '#FFFFFF'};
+    props.showCritical ? '#ff6d84' : props?.theme?.table};
 
   @media screen and (max-width: ${maxWidthBreakpoint}) {
     border-bottom: 3px solid #ddd;
@@ -148,7 +153,10 @@ export const Table: FC<TablePropsType> = ({
                 isCritical,
                 nps: { currentPeriod, lastPeriod, avg },
               }) => (
-                <StyledTableRow showCritical={showCritical && isCritical} key={id}>
+                <StyledTableRow
+                  showCritical={showCritical && isCritical}
+                  key={id}
+                >
                   <StyledTableCell data-label={labels.ID}>
                     <StyledDot color={id} />
                   </StyledTableCell>
