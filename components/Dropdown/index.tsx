@@ -1,4 +1,11 @@
-import React, { Dispatch, FC, SetStateAction, useState } from 'react';
+import React, {
+  Dispatch,
+  FC,
+  SetStateAction,
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
 import styled from 'styled-components';
 
 import { DropdownItem } from '../../graphql/types';
@@ -59,6 +66,10 @@ type DropdownPropsType = {
   value: DropdownItem;
 };
 
+interface RefObject {
+  contains: (e: any) => void
+}
+
 export const Dropdown: FC<DropdownPropsType> = ({
   label,
   setState,
@@ -66,12 +77,27 @@ export const Dropdown: FC<DropdownPropsType> = ({
   value,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const node = useRef<RefObject>(null);
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+  const handleClickOutside = (event: { target: any; }) => {
+    if (node?.current?.contains(event.target)) {
+      return;
+    }
+    setIsOpen(false);
+  };
+
   const handleSelected = (item: DropdownItem) => {
     setState(item);
     setIsOpen(false);
   };
   return (
-    <DropdownWrapper>
+    <DropdownWrapper ref={node as React.RefObject<HTMLDivElement>}>
       <StyledLabel>{label}</StyledLabel>
       <StyledButton
         type="button"
